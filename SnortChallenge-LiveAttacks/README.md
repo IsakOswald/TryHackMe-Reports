@@ -1,0 +1,3 @@
+## What is Snort?
+
+Snort is a mostly used as an Intrusion Detection System (IDS) which pretty much monitors a network (NIDS) or host (HIDS). It detects anomalies through snort rules which are just signatures (actions you specify). Snort is great as the rules are super easy to create but come with the drawback of being difficult to create for complex signatures/actions. Snort can be used as an Intrusion Preventions System (IPS) which **actively** drops incoming connects instead of just outputting something to a log file. You can also apply your snort rules on .pcap files to see what has happened on a network that you were not analysing in real time.
