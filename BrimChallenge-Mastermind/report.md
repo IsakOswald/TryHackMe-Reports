@@ -1,7 +1,7 @@
 # Brim Challenge - Masterminds
 
 ## Learning Room: https://tryhackme.com/room/brim
-You should note that this is **NOT** a tutorial on Brim, but a walkthrough of the **challenge** room. If you need to lead what Brim is and how to use it, refer to the **Learning Room** link.
+You should note that this is **NOT** a tutorial on Brim, but a walkthrough of the **challenge** room. If you need to learn what Brim is and how to use it, refer to the **Learning Room** link.
 
 ## Challenge Room: https://tryhackme.com/room/mastermindsxlq
 
@@ -20,7 +20,7 @@ Let’s start off by loading the **infection1** packet capture (.pacp) into Brim
 
 ![S1](images/S1.png)
 
-We will then continue by then looking at the “conn” logs to try and specify out victims IP address. I used the search query `_path == “conn” | cut id.orig_h,id.resp_h` and got the following:
+We will then continue by then looking at the “conn” logs to try and specify our victims IP address. I used the search query `_path == “conn” | cut id.orig_h,id.resp_h` and got the following:
 
 
 ![S2](images/S2.png)
