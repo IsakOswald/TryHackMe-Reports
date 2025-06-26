@@ -1,3 +1,12 @@
+# Zeek Exercises - Challenge
+
+## Learning Room: https://tryhackme.com/room/zeekbro
+You should note that this is **NOT** a tutorial on Zeek, but a walkthrough of the **challenge** room. If you need to learn what Zeek is and how to use it, refer to the **Learning Room** link.
+
+## Challenge Room: https://tryhackme.com/room/zeekbroexercises
+
+
+
 The room invites you a challenge to investigate a series of traffic data and stop malicious activity under different scenarios. Let's start working with Zeek to analyse the captured traffic.
 
 ### Section 1
