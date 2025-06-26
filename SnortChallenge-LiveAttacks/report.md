@@ -1,3 +1,12 @@
+# Snort Challenges
+
+## Learning Room: https://tryhackme.com/room/snort
+You should note that this is **NOT** a tutorial on Snort, but a walkthrough of the **challenge** room. If you need to learn what Snort is and how to use it, refer to the **Learning Room** link.
+
+## Challenge Room featured in the report: https://tryhackme.com/room/snortchallenges2
+
+## Basic challenge room (no report on this one): https://tryhackme.com/room/snortchallenges1
+
 
 This challenge was the second challenge in the Snort challenge series. This challenge revolved around SOC (blue teamers) defending against attackers which brute force ssh, and establish a reverse shell inside out network. We use snort to analyse raw network traffic, identify anomalies (attackers) and write snort rules to block them. As you may of guessed, Snort is a super powerful tool, its ability to act as an IDS **and** IPS is super powerful once you get the hang of it.
 
